@@ -20,7 +20,7 @@ const char* default_SSID = "Wokwi-GUEST"; // Nome da rede Wi-Fi
 const char* default_PASSWORD = ""; // Senha da rede Wi-Fi
 
 // Endereco e porta do broker MQTT que recebe os dados da lampada.
-const char* default_BROKER_MQTT = "46.17.108.113"; // IP do Broker MQTT
+const char* default_BROKER_MQTT = ""; // IP do Broker MQTT
 const int default_BROKER_PORT = 1883; // Porta do Broker MQTT
 
 // Topico no qual o ESP32 escuta os comandos de ligar e desligar.
